@@ -33,25 +33,17 @@ PartPOneVoiceOne =  {
   b'2 b'1 c''2 b'2.\melisma a'4 a'1 \melismaEnd g'2 a'\breve. r1 r\breve
 
   %%  NB THis is done with blackening in the score - might convert these to triplets because it's not actually a time sig change?
- \time 3/1  g'1 g'1 g'1
-  a'\breve.
-  b'1 b'1 b'1
-  c''\breve r1
-  c''1 c''1 c''1
-  d''\breve r1
-  b'1 b'1 b'1
-  c''\breve r1
-  g'1 g'1 g'1
-  a'\breve.
-  b'1 b'1 b'1
-  c''\breve r1
-  c''1 c''1 c''1
-  d''\breve r1
-  b'1 b'1 b'1
-  c''2 c''1 b'2 a'1
-  b'\breve g'1
-  g'1 g'\breve
-  g'\breve.
+ %\time 3/1
+ \times 2/3 { g'1 g'1 g'1 } a'\breve
+ \times 2/3 { b'1 b'1 b'1 } \times 2/3 {   c''\breve r1 }
+ \times 2/3 { c''1 c''1 c''1 } \times 2/3 {   d''\breve r1 }
+ \times 2/3 { b'1 b'1 b'1 } \times 2/3 {   c''\breve r1 }
+ \times 2/3 { g'1 g'1 g'1 }  a'\breve
+ \times 2/3 { b'1 b'1 b'1 } \times 2/3 {   c''\breve r1 }
+ \times 2/3 { c''1 c''1 c''1 } \times 2/3 {  d''\breve r1 }
+ \times 2/3 { b'1 b'1 b'1 } \times 2/3 {  c''2 c''1 b'2 a'1 }
+ \times 2/3 {  b'\breve g'1 } \times 2/3 {  g'1 g'\breve }
+  g'\breve
 }
 
 PartPTwoVoiceOne =  {
@@ -69,25 +61,15 @@ PartPTwoVoiceOne =  {
   a1 b1 a1 r1 f'1. f'2 e'2 d'1 a2 b1 g1 r\breve r1 r2 d'1 d'2 g'1 g'2 g'2
   f'1 e'2 e'1 e'2 e'1 f'2. \melisma e'4 d'2. c'4 b2 \melismaEnd c'2 a1
 
-   b\breve. %blackening = change to triplets rather than the current time change?
-  d'1 d'1 d'1
-  d'\breve.
-  g'1 g'1 g'1
-  c'\breve.
-  f'1 f'1 f'1
-  d'1 g'\breve
-  e'\breve d'1
-  b\breve.
-  d'1 d'1 d'1
-  d'\breve.
-  g'1 g'1 g'1
-  c'\breve.
-  f'1 f'1 f'1
-  d'1 g'\breve
-  e'1. g'1 f'2
-  g'\breve e'1
-  d'1 e'\breve
-  d'\breve.
+   b\breve %blackening = change to triplets rather than the current time change?
+ \times 2/3 { d'1 d'1 d'1 }   d'\breve
+ \times 2/3 { g'1 g'1 g'1 }   c'\breve
+ \times 2/3 { f'1 f'1 f'1 } \times 2/3 { d'1 g'\breve } \times 2/3 { e'\breve d'1 } b\breve
+ \times 2/3 { d'1 d'1 d'1 } d'\breve
+ \times 2/3 { g'1 g'1 g'1 } c'\breve
+ \times 2/3 { f'1 f'1 f'1 } \times 2/3 { d'1 g'\breve }
+ \times 2/3 { e'1. g'1 f'2 } \times 2/3 {g'\breve e'1 }
+ \times 2/3 { d'1 e'\breve } d'\breve
 }
 
 PartPThreeVoiceOne =  {
@@ -105,27 +87,16 @@ PartPThreeVoiceOne =  {
   f2 g1 r2 d'1 d'2 e'1
   c'2 d'2 b1 cis'2 cis'1 cis'2 d'2 d'1 f'2 \[ e'1 \melisma d'1 \] \melismaEnd
 
-
-
-   d'\breve.
-  fis'1 fis'1 fis'1
-  g'\breve.
-  e'1 e'1 e'1
-  f'1 a'1 a'1
-  a'1 d'\breve
-  d'1 d'1 d'1
-  c'1 c'2 c'2 a1
-  d'\breve.
-  fis'1 fis'1 fis'1
-  g'\breve.
-  e'1 e'1 e'1
-  f'1 a'1 a'1
-  a'1 d'\breve
-  d'1 d'1 d'1
-  c'1 e'2 d'2 d'1
-  d'\breve c'1
-  d'1 c'\breve
-  b\breve.
+  d'\breve
+ \times 2/3 { fis'1 fis'1 fis'1 } g'\breve
+ \times 2/3 { e'1 e'1 e'1 } \times 2/3 {  f'1 a'1 a'1 }
+ \times 2/3 { a'1 d'\breve } \times 2/3 {  d'1 d'1 d'1 }
+ \times 2/3 { c'1 c'2 c'2 a1 }  d'\breve
+ \times 2/3 { fis'1 fis'1 fis'1 } g'\breve
+ \times 2/3 { e'1 e'1 e'1 } \times 2/3 { f'1 a'1 a'1 }
+ \times 2/3 { a'1 d'\breve } \times 2/3 { d'1 d'1 d'1 }
+ \times 2/3 { c'1 e'2 d'2 d'1 } \times 2/3 { d'\breve c'1 }
+ \times 2/3 { d'1 c'\breve } b\breve
 }
 
 PartPFourVoiceOne =  {  % qced against source
@@ -144,23 +115,15 @@ PartPFourVoiceOne =  {  % qced against source
   e2. e4 f2 f2 e2 d1 c2 d1 g1. g2 e1
   f2 d2 e1 e2 a1 a2 a1 bes2 a2. g4 g1 f2
 
-  g\breve.
-  R\breve.*2
-  g1 g1 g1
-  a\breve.
-  a1 a1 a1
-  g\breve.
-  g1. a2 fis1
-  g\breve.
-  R\breve.*2
-  g1 g1 g1
-  a\breve.
-  a1 a1 a1
-  g\breve.
-  g1. g2 a1
-  g\breve. ~
-  g\breve. ~
-  g\breve.
+  g\breve
+  R\longa
+  \times 2/3 { g1 g1 g1 } a\breve
+  \times 2/3 { a1 a1 a1 } g\breve
+  \times 2/3 {g1. a2 fis1 } g\breve
+  R\longa
+  \times 2/3 {g1 g1 g1 } a\breve
+ \times 2/3 { a1 a1 a1 } g\breve
+ \times 2/3 { g1. g2 a1 }  g\longa.
 }
 
 PartPFiveVoiceOne =  {  % qced against source
@@ -176,31 +139,23 @@ PartPFiveVoiceOne =  {  % qced against source
   d1 g,2 g,2 a,1 d1. d2 d1 e2 g2 d1 g,1 c2. c4 d1 c2 b,2 a,1 g,\breve r\breve
   r\breve a,1. a,2 d1 g,2 d2 e2 \melisma c2 d1 \melismaEnd
 
-  g,\breve.
-  R\breve.
-  g1 g1 g1
-  c\breve.
-  f1 f1 f1
-  d\breve.
-  g,1 g,1 g,1
-  c2 c1 a,2 d1
-  g,\breve.
-  R\breve.
-  g1 g1 g1
-  c\breve.
-  f1 f1 f1
-  d\breve.
-  g,1 g,1 g,1
-  c2 c1 g,2 d1
-  g,\breve c1
-  b,1 c\breve
-  g,\breve.
+  g,\breve
+  R\breve
+  \times 2/3 { g1 g1 g1 } c\breve
+  \times 2/3 {f1 f1 f1 } d\breve
+  \times 2/3 { g,1 g,1 g,1 } \times 2/3 { c2 c1 a,2 d1 } g,\breve
+  R\breve
+  \times 2/3 { g1 g1 g1 }   c\breve
+ \times 2/3 { f1 f1 f1 } d\breve
+ \times 2/3 { g,1 g,1 g,1 } \times 2/3 {  c2 c1 g,2 d1 }
+  \times 2/3 { g,\breve c1 } \times 2/3 { b,1 c\breve }
+  g,\breve
 }
 
 %PartPOneVoiceOne =  {}
-PartPTwoVoiceOne =  { }
-PartPThreeVoiceOne =  { }
-PartPFourVoiceOne =  {  }
+%PartPTwoVoiceOne =  { }
+%PartPThreeVoiceOne =  { }
+%PartPFourVoiceOne =  {  }
 %PartPFiveVoiceOne =  {}
 
 % The score definition
