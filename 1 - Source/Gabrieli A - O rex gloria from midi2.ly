@@ -94,16 +94,17 @@ PartPThreeVoiceOne =  {
   \clef "mensural-c3" \key c \major r1 g\breve a1 c'1. c'2 b1 c'2.
   c'4 a2 a2 a1 g1 g\breve a1 c'2. c'4 b1 a2 b2 a2 a2 c'1 b1 d'1 a1 b2. b4
   c'1 b2 b2 a2 a2 a1 a2 a2
-  b2 b2 b2 b2 c'2. d'4 e'2 d'2 c'1 r1 c'1 c'2 a2 b2 b2 c'4 b4 g4 a4 b2
+  b2 b2 b2 b2 c'2.\melisma d'4 e'2 \melismaEnd d'2 c'1 r1 c'1 c'2 a2 b2 b2 c'4 \melisma b4 g4 a4 b2 \melismaEnd
   a2 g1 r1 r2 g'1 e'2 e'2 d'2 b2 e'2 g'2 g'2 e'1 d'2 e'1 d'2 b2 b2 g2
-  b2 c'2 c'2 b4 a4 b2 c'1 r2 c'2 c'2 a2
+  b2 c'2 c'2 \melisma b4 a4 b2 \melismaEnd c'1 r2 c'2 c'2 a2
   b1 c'2 g'2 g'2 fis'2 g'1 g'2 e'2 e'2 d'2 d'1 e'2 c'2 d'1. c'2 c'1 r2
   g'2 g'2 e'2 fis'1 g'2 g'2 a'1. g'2 g'1 r2 d'2 d'1 cis'2 d'2 e'2 b2
   d'1 e'2 e'2 a2 b2 c'2 a2 a1. a2
   r1 r2 d'2 d'1 cis'2 d'2 g2 g2 b1 a2 d'2 e'2 f'2 d'1 e'2 a2 e'2 e'2
-  f'1 d'2 d'2. cis'8 b8 cis'2 d'\breve r\breve r2 d'1 d'2 c'1 bes2 a2. g4 g1
-  fis2 g1 r2 d'1 d'2 e'1
-  c'2 d'2 b1 cis'2 cis'1 cis'2 d'2 d'1 f'2 e'1 d'1 r\maxima r\maxima r\longa
+  f'1 d'2 d'2. \melisma c'8 b8 c'2 \melismaEnd d'\breve r\breve r2 d'1 d'2 c'1 bes2 a2. \melisma g4 g1 \melismaEnd
+  f2 g1 r2 d'1 d'2 e'1
+  c'2 d'2 b1 cis'2 cis'1 cis'2 d'2 d'1 f'2 [ e'1 \melisma d'1 ] \melismaEnd
+
 
 
    d'\breve.
@@ -116,10 +117,10 @@ PartPThreeVoiceOne =  {
   c'1 c'2 c'2 a1
   d'\breve.
   fis'1 fis'1 fis'1
-  g'\breve r1
+  g'\breve.
   e'1 e'1 e'1
   f'1 a'1 a'1
-  a'1 d'1 r1
+  a'1 d'\breve
   d'1 d'1 d'1
   c'1 e'2 d'2 d'1
   d'\breve c'1
@@ -197,8 +198,8 @@ PartPFiveVoiceOne =  {
 }
 
 %PartPOneVoiceOne =  {}
-%PartPTwoVoiceOne =  { }
-PartPThreeVoiceOne =  { }
+PartPTwoVoiceOne =  { }
+%PartPThreeVoiceOne =  { }
 PartPFourVoiceOne =  {  }
 PartPFiveVoiceOne =  {}
 
