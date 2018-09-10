@@ -64,7 +64,7 @@ StaveANotes = {
   % \cadenzaOn
    R\longa.
   g'\breve a'1 c''1. c''2 b'2 b'1 b'2 c''2 c''2. \melisma
-  b'4 a'2. g'4 g'2 \melismaEnd  fis'2 g'1 fis'2 \melismaEnd  g'1
+  b'4 a'2. g'4 g'2 \melismaEnd  fis'2 \melisma g'1 fis'2 \melismaEnd  g'1
 
   r1 R\longa r2 d'2 a'2
   a'2 a'2 e'2 fis'2 fis'2
@@ -214,10 +214,10 @@ StaveHNotes = {  }
 
 % Convenient overrides - comment and uncomment to add and remove staves for quick debugging / rendering purposes:
 % StaveANotes = {  }
-% StaveBNotes = {  }
-% StaveCNotes = {  }
-% StaveDNotes = {  }
-% StaveENotes = {  }
+ StaveBNotes = {  }
+ StaveCNotes = {  }
+ StaveDNotes = {  }
+ StaveENotes = {  }
 % StaveFNotes = {  }
 % StaveGNotes = {  }
 % StaveHNotes = {  }
@@ -227,7 +227,28 @@ StaveHNotes = {  }
 %%%%%%%%%%%%%%%%%%
 
 StaveALyrics = \lyricmode {
-
+    O Rex glo -- ri -- ae,
+    Do -- mi -- ne vir -- tu -- tum,
+    qui tri -- um -- pha -- tor ho -- di -- e,
+    qui tri -- um -- pha -- tor ho -- di -- e,
+    qui tri -- um -- pha -- tor ho -- di -- e
+    su -- per om -- nes cae -- los as -- cen -- dis -- ti,
+    ne de -- re -- lin -- quas,
+    ne de -- re -- lin -- quas nos or -- pha -- nos,
+    sed mit -- te pro -- mis -- sum Pat -- ris in nos,
+    sed mit -- te pro -- mis -- sum Pat -- ris in nos,
+    Spi -- ri -- tum ve -- ri -- ta -- tis.
+    Spi -- ri -- tum ve -- ri -- ta -- tis.
+    Al -- le -- lu -- ia.
+    \italicas { Al -- le -- lu -- ia. } \rectas
+    Al -- le -- lu -- ia.
+    \italicas { Al -- le -- lu -- ia. } \rectas
+    Al -- le -- lu -- ia.
+    \italicas { Al -- le -- lu -- ia. } \rectas
+    Al -- le -- lu -- ia.
+    Al -- le -- lu -- ia.
+    \italicas { Al -- le -- lu -- ia. } \rectas
+    Al -- le -- lu -- ia.
 }
 StaveBLyrics = \lyricmode {
 
@@ -245,14 +266,23 @@ StaveELyrics = \lyricmode {
 
 }
 StaveFLyrics = \lyricmode {
-  O Rex gloriae
-  Domine virtutum
+  O Rex gloriae,
+  Domine virtutum,
   qui triumphator hodie
-  super omnes ceos ascendisti
-  ne derelinquas nos orphanos
-  sed mitte promissum partis in nos
-  spiritum veritatis
+  super omnes caelos ascendisti,
+  ne derelinquas nos orphanos,
+  sed mitte promissum Patris in nos,
+  Spiritum veritatis.
   Alleluia.
+
+  O Rex glo -- ri -- ae,
+  Do -- mi -- ne vir -- tu -- tum,
+  qui tri -- um -- pha -- tor ho -- di -- e
+  su -- per om -- nes cae -- los as -- cen -- dis -- ti,
+  ne de -- re -- lin -- quas nos or -- pha -- nos,
+  sed mit -- te pro -- mis -- sum Pat -- ris in nos,
+  Spi -- ri -- tum ve -- ri -- ta -- tis.
+  Al -- le -- lu -- ia.
 
 }
 StaveGLyrics = \lyricmode { A }
