@@ -2,11 +2,11 @@
 %  Alistair Kirk's Lilypond Template for Polyphonic Music - last revised 2018-09-03.
 %
 %
-%  If you can't be bothered to learn how to use lilypond properly (fair enough) then you can still easily make many 
-%  commonly-needed changes to this score - including transposition, clefs, music size, titles etc etc - using my 
+%  If you can't be bothered to learn how to use lilypond properly (fair enough) then you can still easily make many
+%  commonly-needed changes to this score - including transposition, clefs, music size, titles etc etc - using my
 %  easy online guide at https://guidallambert.github.io/MusicEditing/EasyLilypondCustomisation.html
 %
-%  Best edited using Frescobaldi!  Get it from frescobaldi.org - a highly recommended 
+%  Best edited using Frescobaldi!  Get it from frescobaldi.org - a highly recommended
 %  Lilypond editor.  (I also highly recommend VSCode with its Git integration for version controlling.)
 %
 
