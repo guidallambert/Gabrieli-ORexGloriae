@@ -132,7 +132,7 @@ StaveCNotes = {
   c'1 b2 b2 a2 a2 a1 a2 a2
   b2 b2 b2 b2 c'2.\melisma d'4 e'2 \melismaEnd d'2 c'1 r1 c'1 c'2 a2 b2 b2 c'4 \melisma b4 g4 a4 b2 \melismaEnd
   a2 g1 r1 r2 g'1 e'2 e'2 d'2 b2 e'2 g'2 g'2 e'1 d'2 e'1 d'2 b2 b2 g2
-  b2 c'2 c'2 \melisma b4 a4 b2 \melismaEnd c'1 r2 c'2 c'2 a2
+  b2 c'2 c'2 b4 \melisma a4 b2 \melismaEnd c'1 r2 c'2 c'2 a2
   b1 c'2 g'2 g'2 fis'2 g'1 g'2 e'2 e'2 d'2 d'1 e'2 c'2 d'1. c'2 c'1 r2
   g'2 g'2 e'2 fis'1 g'2 g'2 a'1. g'2 g'1 r2 d'2 d'1 cis'2 d'2 e'2 b2
   d'1 e'2 e'2 a2 b2 c'2 a2 a1. a2
@@ -214,8 +214,8 @@ StaveHNotes = {  }
 
 % Convenient overrides - comment and uncomment to add and remove staves for quick debugging / rendering purposes:
 % StaveANotes = {  }
-% StaveBNotes = {  }
- StaveCNotes = {  }
+ StaveBNotes = {  }
+% StaveCNotes = {  }
  StaveDNotes = {  }
  StaveENotes = {  }
 % StaveFNotes = {  }
@@ -279,6 +279,39 @@ StaveBLyrics = \lyricmode {
 }
 StaveCLyrics = \lyricmode {
 
+  O Rex glo -- ri -- ae,
+  Do -- mi -- ne vir -- tu -- tum,
+  O Rex glo -- ri -- ae,
+  Do -- mi -- ne vir -- tu -- tum,
+  O Rex glo -- ri -- ae,
+  Do -- mi -- ne vir -- tu -- tum,
+  qui tri -- um -- pha -- tor ho -- di -- e
+  qui tri -- um -- pha -- tor ho -- di -- e
+  su -- per om -- nes cae -- los as -- cen -- dis -- ti,
+  su -- per om -- nes cae -- los as -- cen -- dis -- ti,
+  ne de -- re -- lin -- quas,
+  ne de -- re -- lin -- quas,
+  ne de -- re -- lin -- quas nos or -- pha -- nos,
+  ne de -- re -- lin -- quas nos or -- pha -- nos,
+  sed mit -- te pro -- mis -- sum Pat -- ris in nos,
+  pro -- mis -- sum Pat -- ris,
+  sed mit -- te pro -- mis -- sum Pat -- ris,
+  pro -- mis -- sum Pat -- ris,
+  pro -- mis -- sum Pat -- ris in __ nos,
+  Spi -- ri -- tum ve -- ri -- ta -- tis.
+  Spi -- ri -- tum ve -- ri -- ta -- tis.
+  Spi -- ri -- tum ve -- ri -- ta -- tis.
+  Al -- le -- lu -- ia.
+  Al -- le -- lu -- ia.
+  \italicas { Al -- le -- lu -- ia. } \rectas
+  Al -- le -- lu -- ia.
+  \italicas { Al -- le -- lu -- ia. } \rectas
+  Al -- le -- lu -- ia.
+  \italicas { Al -- le -- lu -- ia. } \rectas
+  Al -- le -- lu -- ia.
+  \italicas { Al -- le -- lu -- ia. } \rectas
+  Al -- le -- lu -- ia.
+  Al -- le -- lu -- ia.
 
 }
 StaveDLyrics = \lyricmode {
