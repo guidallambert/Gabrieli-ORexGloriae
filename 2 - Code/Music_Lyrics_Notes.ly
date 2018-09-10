@@ -119,7 +119,7 @@ StaveBNotes = {
   \times 2/3 { d'1 d'1 d'1 } d'\breve
   \times 2/3 { g'1 g'1 g'1 } c'\breve
   \times 2/3 { f'1 f'1 f'1 } \times 2/3 { d'1 g'\breve }
-  \times 2/3 { e'1. g'1 \ficta fis'2 } \times 2/3 {g'\breve e'1 }
+  \times 2/3 { e'1. g'1 \melisma \ficta fis'2 } \melismaEnd \times 2/3 {g'\breve e'1 }
   \times 2/3 { d'1 e'\breve } d'\maxima*1/4
 
 }
@@ -214,7 +214,7 @@ StaveHNotes = {  }
 
 % Convenient overrides - comment and uncomment to add and remove staves for quick debugging / rendering purposes:
 % StaveANotes = {  }
- StaveBNotes = {  }
+% StaveBNotes = {  }
  StaveCNotes = {  }
  StaveDNotes = {  }
  StaveENotes = {  }
@@ -229,16 +229,16 @@ StaveHNotes = {  }
 StaveALyrics = \lyricmode {
     O Rex glo -- ri -- ae,
     Do -- mi -- ne vir -- tu -- tum,
-    qui tri -- um -- pha -- tor ho -- di -- e,
+    qui tri -- um -- pha -- tor ho -- di -- e,__
     qui tri -- um -- pha -- tor ho -- di -- e,
     qui tri -- um -- pha -- tor ho -- di -- e
     su -- per om -- nes cae -- los as -- cen -- dis -- ti,
     ne de -- re -- lin -- quas,
-    ne de -- re -- lin -- quas nos or -- pha -- nos,
+    ne de -- re -- lin -- quas nos or -- pha -- nos, __
     sed mit -- te pro -- mis -- sum Pat -- ris in nos,
     sed mit -- te pro -- mis -- sum Pat -- ris in nos,
-    Spi -- ri -- tum ve -- ri -- ta -- tis.
-    Spi -- ri -- tum ve -- ri -- ta -- tis.
+    Spi -- ri -- tum ve -- ri -- ta -- tis. __
+    Spi -- ri -- tum ve -- ri -- ta -- tis. __
     Al -- le -- lu -- ia.
     \italicas { Al -- le -- lu -- ia. } \rectas
     Al -- le -- lu -- ia.
@@ -251,7 +251,31 @@ StaveALyrics = \lyricmode {
     Al -- le -- lu -- ia.
 }
 StaveBLyrics = \lyricmode {
-
+    O Rex glo -- ri -- ae,
+    O __ Rex glo -- ri -- ae,
+    Do -- mi -- ne vir -- tu -- tum,__
+    qui tri -- um -- pha -- tor ho -- di -- e
+    qui tri -- um -- pha -- tor ho -- di -- e
+    su -- per om -- nes cae -- los as -- cen -- dis -- ti, __
+    as -- cen -- dis -- ti,
+    ne de -- re -- lin -- quas,
+    ne de -- re -- lin -- quas,
+    ne de -- re -- lin -- quas nos or -- pha -- nos,
+    ne de -- re -- lin -- quas nos or -- pha -- nos, __
+    sed mit -- te pro -- mis -- sum Pat -- ris in nos,
+    sed mit -- te pro -- mis -- sum Pat -- ris in nos,
+    Spi -- ri -- tum ve -- ri -- ta -- tis,
+    Spi -- ri -- tum ve -- ri -- ta -- tis,
+    Spi -- ri -- tum ve -- ri -- ta -- tis.
+    Al -- le -- lu -- ia.
+    \italicas { Al -- le -- lu -- ia. } \rectas
+    Al -- le -- lu -- ia.
+    \italicas { Al -- le -- lu -- ia. } \rectas
+    Al -- le -- lu -- ia.
+    Al -- le -- lu -- ia.
+    \italicas { Al -- le -- lu -- ia. } \rectas
+    Al -- le -- lu -- ia.
+    Al -- le -- lu -- ia.
 }
 StaveCLyrics = \lyricmode {
 
