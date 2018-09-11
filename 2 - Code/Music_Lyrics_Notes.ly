@@ -165,10 +165,10 @@ StaveDNotes = {
   g1 g2 c'2 c'2 d'2 g1 g2 c'2 c'2 a2 b1 c'2 g2 bes1.
   g2 g1 r2 g2 g2 a2 d1 g2 g2 f1. g2 g1 r\breve r2 g2 g1 fis2
   g4 \melisma f4 e4 d4 c2 \melismaEnd d2 g2 f1 d2 d2 a1
-  a2 a1 fis2 g1 e2 f2 \[ e1 d1 \] d2 bes2 a1 R\breve r2 a2 a2 d2
-  g1 e2 e2 f2. g4 a2 d'2. d'4 d'2 c'2 b2 a1 g1
-  e2. e4 f2 f2 e2 d1 c2 d1 g1. g2 e1
-  f2 d2 e1 e2 a1 a2 a1 bes2 a2. g4 g1 \ficta fis2
+  a2 a1 fis2 g1 e2 f2 \[ e1 \melisma d1 \] \melismaEnd d2 bes2 a1 R\breve r2 a2 a2 d2
+  g1 e2 e2 f2.\melisma g4 a2 \melismaEnd d'2. d'4 d'2 c'2 b2 a1 g1
+  e2. e4 f2 f2 e2 d1 \melisma c2 \melismaEnd d1 g1. g2 e1
+  f2 d2 e1 e2 a1 a2 a1 bes2 a2.\melisma g4 g1 \melismaEnd \ficta fis2
 
   g\breve
   R\longa
@@ -214,10 +214,10 @@ StaveHNotes = {  }
 
 % Convenient overrides - comment and uncomment to add and remove staves for quick debugging / rendering purposes:
 % StaveANotes = {  }
- StaveBNotes = {  }
+% StaveBNotes = {  }
 % StaveCNotes = {  }
- StaveDNotes = {  }
- StaveENotes = {  }
+% StaveDNotes = {  }
+% StaveENotes = {  }
 % StaveFNotes = {  }
 % StaveGNotes = {  }
 % StaveHNotes = {  }
@@ -229,14 +229,14 @@ StaveHNotes = {  }
 StaveALyrics = \lyricmode {
     O Rex glo -- ri -- ae,
     Do -- mi -- ne vir -- tu -- tum,
-    qui tri -- um -- pha -- tor ho -- di -- e,__
+    qui tri -- um -- pha -- tor ho -- di -- e, __
     qui tri -- um -- pha -- tor ho -- di -- e,
     qui tri -- um -- pha -- tor ho -- di -- e
     su -- per om -- nes cae -- los as -- cen -- dis -- ti,
     ne de -- re -- lin -- quas,
     ne de -- re -- lin -- quas nos or -- pha -- nos, __
-    sed mit -- te pro -- mis -- sum Pat -- ris in nos,
-    sed mit -- te pro -- mis -- sum Pat -- ris in nos,
+    sed mit -- te pro -- mis -- sum Pa -- tris in nos,
+    sed mit -- te pro -- mis -- sum Pa -- tris in nos,
     Spi -- ri -- tum ve -- ri -- ta -- tis. __
     Spi -- ri -- tum ve -- ri -- ta -- tis. __
     Al -- le -- lu -- ia.
@@ -253,7 +253,7 @@ StaveALyrics = \lyricmode {
 StaveBLyrics = \lyricmode {
     O Rex glo -- ri -- ae,
     O __ Rex glo -- ri -- ae,
-    Do -- mi -- ne vir -- tu -- tum,__
+    Do -- mi -- ne vir -- tu -- tum, __
     qui tri -- um -- pha -- tor ho -- di -- e
     qui tri -- um -- pha -- tor ho -- di -- e
     su -- per om -- nes cae -- los as -- cen -- dis -- ti, __
@@ -262,8 +262,8 @@ StaveBLyrics = \lyricmode {
     ne de -- re -- lin -- quas,
     ne de -- re -- lin -- quas nos or -- pha -- nos,
     ne de -- re -- lin -- quas nos or -- pha -- nos, __
-    sed mit -- te pro -- mis -- sum Pat -- ris in nos,
-    sed mit -- te pro -- mis -- sum Pat -- ris in nos,
+    sed mit -- te pro -- mis -- sum Pa -- tris in nos,
+    sed mit -- te pro -- mis -- sum Pa -- tris in nos,
     Spi -- ri -- tum ve -- ri -- ta -- tis,
     Spi -- ri -- tum ve -- ri -- ta -- tis,
     Spi -- ri -- tum ve -- ri -- ta -- tis.
@@ -279,9 +279,9 @@ StaveBLyrics = \lyricmode {
 }
 StaveCLyrics = \lyricmode {
 
-  O Rex glo -- ri -- ae,
+O __ Rex glo -- ri -- ae,
   Do -- mi -- ne vir -- tu -- tum,
-  O Rex glo -- ri -- ae,
+  O __ Rex glo -- ri -- ae,
   Do -- mi -- ne vir -- tu -- tum,
   O Rex glo -- ri -- ae,
   Do -- mi -- ne vir -- tu -- tum,
@@ -293,11 +293,11 @@ StaveCLyrics = \lyricmode {
   ne de -- re -- lin -- quas,
   ne de -- re -- lin -- quas nos or -- pha -- nos,
   ne de -- re -- lin -- quas nos or -- pha -- nos,
-  sed mit -- te pro -- mis -- sum Pat -- ris in nos,
-  pro -- mis -- sum Pat -- ris,
-  sed mit -- te pro -- mis -- sum Pat -- ris,
-  pro -- mis -- sum Pat -- ris,
-  pro -- mis -- sum Pat -- ris in __ nos,
+  sed mit -- te pro -- mis -- sum Pa -- tris in nos,
+  pro -- mis -- sum Pa -- tris,
+  sed mit -- te pro -- mis -- sum Pa -- tris,
+  pro -- mis -- sum Pa -- tris,
+  pro -- mis -- sum Pa -- tris in __ nos,
   Spi -- ri -- tum ve -- ri -- ta -- tis.
   Spi -- ri -- tum ve -- ri -- ta -- tis.
   Spi -- ri -- tum ve -- ri -- ta -- tis.
@@ -316,10 +316,60 @@ StaveCLyrics = \lyricmode {
 }
 StaveDLyrics = \lyricmode {
 
+O __ Rex glo -- ri -- ae,
+  Do -- mi -- ne vir -- tu -- tum,
+  O Rex glo -- ri -- ae,
+  Do -- mi -- ne vir -- tu -- tum,
+  qui tri -- um -- pha -- tor ho -- di -- e
+  qui tri -- um -- pha -- tor ho -- di -- e
+  su -- per om -- nes cae -- los as -- cen -- dis -- ti,
+  su -- per om -- nes cae -- los as -- cen -- dis -- ti,
+  ne de -- re -- lin -- quas,
+  ne de -- re -- lin -- quas,
+  ne de -- re -- lin -- quas nos or -- pha -- nos,
+  ne de -- re -- lin -- quas nos or -- pha -- nos,
+  sed mit -- te pro -- mis -- sum Pa -- tris in nos,
+  sed mit -- te pro -- mis -- sum Pa -- tris in nos,
+  pro -- mis -- sum Pa -- tris in nos, __
+  Spi -- ri -- tum __ ve -- ri -- ta -- tis.
+  Spi -- ri -- tum ve -- ri -- ta -- tis.
+  Spi -- ri -- tum ve -- ri -- ta -- tis.
+  Spi -- ri -- tum ve -- ri -- ta -- tis.
+  Al -- le -- lu -- ia.
+  \italicas { Al -- le -- lu -- ia. } \rectas
+  Al -- le -- lu -- ia.
+  Al -- le -- lu -- ia.
+  Al -- le -- lu -- ia.
+  Al -- le -- lu -- ia. __
 
 }
 StaveELyrics = \lyricmode {
 
+  O Rex glo -- ri -- ae,
+  Do -- mi -- ne vir -- tu -- tum,
+  O __ Rex glo -- ri -- ae,
+  Do -- mi -- ne vir -- tu -- tum,
+  Do -- mi -- ne vir -- tu -- tum,
+  qui tri -- um -- pha -- tor ho -- di -- e
+  qui tri -- um -- pha -- tor ho -- di -- e
+  su -- per om -- nes cae -- los as -- cen -- dis -- ti,
+  ne de -- re -- lin -- quas,
+  ne de -- re -- lin -- quas nos or -- pha -- nos,
+  sed mit -- te pro -- mis -- sum Pa -- tris in nos,
+  sed mit -- te pro -- mis -- sum Pa -- tris,
+  sed mit -- te pro -- mis -- sum Pa -- tris in nos,
+  Spi -- ri -- tum ve -- ri -- ta -- tis.
+  Spi -- ri -- tum ve -- ri -- ta -- tis.
+  Spi -- ri -- tum ve -- ri -- ta -- tis.
+  Al -- le -- lu -- ia.
+  \italicas { Al -- le -- lu -- ia. } \rectas
+  Al -- le -- lu -- ia.
+  \italicas { Al -- le -- lu -- ia. } \rectas
+  Al -- le -- lu -- ia.
+  \italicas { Al -- le -- lu -- ia. } \rectas
+  Al -- le -- lu -- ia.
+  \italicas { Al -- le -- lu -- ia. } \rectas
+  Al -- le -- lu -- ia.
 
 }
 StaveFLyrics = \lyricmode {
@@ -337,7 +387,7 @@ StaveFLyrics = \lyricmode {
   qui tri -- um -- pha -- tor ho -- di -- e
   su -- per om -- nes cae -- los as -- cen -- dis -- ti,
   ne de -- re -- lin -- quas nos or -- pha -- nos,
-  sed mit -- te pro -- mis -- sum Pat -- ris in nos,
+  sed mit -- te pro -- mis -- sum Pa -- tris in nos,
   Spi -- ri -- tum ve -- ri -- ta -- tis.
   Al -- le -- lu -- ia.
 
