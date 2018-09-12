@@ -163,7 +163,7 @@ StaveDNotes = {
   r2 c'1 b2 c'2 c'2 d'2 c'2 c'2 a2 g\breve g1 r2 g1 \ficta fis2 g2
   d2 e2 e2 c2 c2 g1 c'1 r2 g2 g2 \ficta fis2
   g1 g2 c'2 c'2 d'2 g1 g2 c'2 c'2 a2 b1 c'2 g2 bes1.
-  g2 g1 r2 g2 g2 a2 d1 g2 g2 f1. g2 g1 r\breve r2 g2 g1 fis2
+  g2 g1 r2 g2 g2 a2 d1 g2 g2 f1. g2 g1 R\breve r2 g2 g1 fis2
   g4 \melisma f4 e4 d4 c2 \melismaEnd d2 g2 f1 d2 d2 a1
   a2 a1 fis2 g1 e2 f2 \[ e1 \melisma d1 \] \melismaEnd d2 bes2 a1 R\breve r2 a2 a2 d2
   g1 e2 e2 f2.\melisma g4 a2 \melismaEnd d'2. d'4 d'2 c'2 b2 a1 g1
@@ -381,6 +381,11 @@ StaveFLyrics = \lyricmode {
   sed mitte promissum Patris in nos,
   Spiritum veritatis.
   Alleluia.
+
+  O King of glory, Lord of power
+  Who, today in triumph, ascendeth above all the heavens,
+  Leave us not as orphans, but send the promises of the father to us,
+  the Spirit of Truth.  Alleluia.
 
   O Rex glo -- ri -- ae,
   Do -- mi -- ne vir -- tu -- tum,
