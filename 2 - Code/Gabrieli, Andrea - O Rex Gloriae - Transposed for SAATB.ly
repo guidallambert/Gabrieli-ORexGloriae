@@ -50,7 +50,7 @@ htitle = "O Rex Gloriae"
 % To transpose the whole score up a tone set to 'd'.  For down a tone, set to 'bes,' (note the comma) etc
 %  Everything is transposed, including key signatures etc (but prefatory staves are not affected).
 
-TranspositionInterval = c
+TranspositionInterval = ees
 
 
 
@@ -60,10 +60,10 @@ TranspositionInterval = c
 StaveAClef =  "treble"
 StaveALabel =  "CANTVS"
 
-StaveBClef =  "treble_8"
+StaveBClef =  "treble"
 StaveBLabel =  "ALTVS"
 
-StaveCClef =  "treble_8"
+StaveCClef =  "treble"
 StaveCLabel =  "QVINTVS"
 
 StaveDClef =  "treble_8"
